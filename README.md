@@ -1,5 +1,5 @@
-Fever Fonts
-===========
+Fever Font
+==========
 
 In an effort to reduce eye strain while reading articles in
 [Fever](http://feedafever.com), I worte this tiny Chrome extension that increases
@@ -8,7 +8,7 @@ the font size for full article text only from 12px to 16px (or whatever you want
 Installation
 ------------
 
-1.  [Download as zip](https://github.com/masnick/feverfonts/zipball/master) and
+1.  [Download as zip](https://github.com/masnick/feverfont/zipball/master) and
     unzip.
 
 2.  Modify the font size and line height in `feverfonts.css` as you see fit.
