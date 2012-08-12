@@ -1,0 +1,16 @@
+{
+  "name": "Reasonable fonts for Fever RSS reader",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Set the font size for Fever to something reasonable.",
+  "permissions": [
+    "http://your.fever.com/"
+  ],
+  "content_scripts" : [
+    {
+      "matches" : [ "http://your.fever.com/*" ],
+      "css": ["feverfonts.css"],
+      "run_at" : "document_start"
+    }
+  ]
+}
